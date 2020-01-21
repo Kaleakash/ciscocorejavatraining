@@ -1,0 +1,7 @@
+
+public class Person {
+private int pId;
+private String personName;
+private int age;
+
+}
