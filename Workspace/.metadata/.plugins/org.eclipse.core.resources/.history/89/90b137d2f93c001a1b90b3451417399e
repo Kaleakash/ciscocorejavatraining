@@ -1,0 +1,8 @@
+package bean;
+
+public class Employee extends Department{
+
+	public void empInfo() {
+		System.out.println("Employee details");
+	}
+}
