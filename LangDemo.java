@@ -34,6 +34,7 @@ class LangDemo {
 	System.out.println("After clone created....");
 		System.out.println(e4);
 	e3.setSalary(18000);
+	
 	System.out.println(e4);
 		System.out.println(e3);
 	System.out.println(e3.hashCode());
