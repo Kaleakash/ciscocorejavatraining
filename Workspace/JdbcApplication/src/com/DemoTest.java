@@ -22,6 +22,10 @@ public class DemoTest {
 						String name= rs.getString(2);
 						float salary = rs.getFloat(3);
 						System.out.println(" Id is "+id +" Name is "+name+" Salary is "+salary);
+						Employee emp= new Employee();
+						emp.setId(id);
+						emp.setName(name);
+						emp.setSalary(salary);
 				}
 				rs.close();
 				*/
